@@ -14,10 +14,10 @@ public class Pizza {
             this.price += 400;
         }
         // your code goes here
+        System.out.println("Base Price Of The Pizza: " + this.price);
     }
 
     public int getPrice(){
-        System.out.println("Base Price Of The Pizza: " + this.price);
         return this.price;
     }
 
